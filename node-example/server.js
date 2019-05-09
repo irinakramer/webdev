@@ -11,11 +11,11 @@ const complements = [
     "That dress looks nice on you",
     "Have you been working out?",
     "You can do hard things",
-    "You've gotten far in this course. You're really smart",
+    "You could survive a Zombie apocalypse because you're such a badass",
     "You're programming! How cool is that?",
-    "I'm really proud of you",
-    "You made this",
-    "You've learned a lot of things, and that's pretty hard to do"
+    "You're awkward, but in a cute way",
+    "You're smarter than Google",
+    "You are beautiful just the way you is. Even if you are grammatically incorrect."
 ];
 
 const insults = [
