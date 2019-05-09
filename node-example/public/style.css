@@ -1,0 +1,56 @@
+body {
+    background-color: deeppink;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
+    height: 97vh;
+    overflow: hidden;
+
+}
+.col {
+    flex: 0 1 50%;
+    text-align: center;
+}
+.col:first-of-type {
+    background-color: white;
+    color: black;
+}
+
+.col:last-of-type {
+    background-color: black;
+    color: white;
+}
+.col p {
+    font-size: 20px;
+}
+button {
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button.request-complement {
+    background-color: lime;
+    border: none;
+    font-weight: 700;
+}
+button.request-complement:hover {
+    background-color: #00d800;
+}
+button.request-insult {
+    background-color: slateblue;
+    border: none;
+    font-weight: 700;
+    color: white;
+}
+button.request-insult:hover {
+    background-color: #4c3ac0;
+}
+button.request-complement:focus,
+button.request-insult:focus {
+    outline: none;
+}
