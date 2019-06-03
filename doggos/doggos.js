@@ -1,3 +1,10 @@
+// FrontEndMasters
+// Complete Intro to Web Development, v2
+// by Brian Holt
+
+
+//  https://btholt.github.io/intro-to-web-dev-v2/ajax
+// Using AJAX, fetch() and doggos.ceo API to get random pictures of doggos.
 
 const doggos = document.querySelector(".doggos");
 const loadingImg = document.querySelector(".loading-icon");
